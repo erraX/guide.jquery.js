@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>guide.jquery.js</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="main">
+        <h1>jQuery Guide plugin</h1>
+
+        <div id="example-form">
+            <div class="form">
+                <div class="field name">
+                    <label>Name: </label>
+                    <input type="text" />
+                </div>
+                <div class="field gender">
+                    <label>Gener: </label>
+                    <label><input type="radio" name="gender" value="male" />male</label>
+                    <label><input type="radio" name="gender" value="female" />female</label>
+                </div>
+            </div>
+        </div>
+
+        <div id="example-image">
+            <img data-guide-target="image" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1513498937636&di=e7a7c4b56ef56112c4e58ccd2a8ff6d0&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3D43acb2b5aec27d1eb12b338773bcc71b%2Fd31b0ef41bd5ad6e4a5764fb8bcb39dbb6fd3c70.jpg" />
+        </div>
+    </div>
+
+    <div class="guide">
+        <div class="content" data-content="image" data-offset-top="400">halo</div>
+    </div>
+
+    <script src="./assets/jquery-1.12.4.min.js"></script>
+    <script src="../dist/guide.jquery.js"></script>
+    <script>
+        $('.guide').guide({});
+    </script>
+</body>
+</html>

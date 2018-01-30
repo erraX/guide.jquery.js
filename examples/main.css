@@ -1,0 +1,15 @@
+.main {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#example-image img {
+    width: 500px;
+}
+
+.content[data-content="image"] {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}

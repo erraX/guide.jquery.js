@@ -1,0 +1,23 @@
+{
+  "name": "guide.jquery.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "guide.jquery.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erraX/guide.jquery.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erraX/guide.jquery.js/issues"
+  },
+  "homepage": "https://github.com/erraX/guide.jquery.js#readme"
+}
